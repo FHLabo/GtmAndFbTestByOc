@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DB24BDA02A5DF383F4C4381 /* Pods_GtmAndFirebaseTrialForOc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE198EAEF35AAC681417E096 /* Pods_GtmAndFirebaseTrialForOc.framework */; };
 		C446C55A2322391600676FFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C446C5592322391600676FFC /* AppDelegate.m */; };
 		C446C55D2322391600676FFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C446C55C2322391600676FFC /* ViewController.m */; };
 		C446C5602322391600676FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C446C55E2322391600676FFC /* Main.storyboard */; };
 		C446C5622322391700676FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C446C5612322391700676FFC /* Assets.xcassets */; };
 		C446C5652322391700676FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C446C5632322391700676FFC /* LaunchScreen.storyboard */; };
 		C446C5682322391700676FFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C446C5672322391700676FFC /* main.m */; };
+		C4E9C78E23223AED003983F4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E9C78D23223AED003983F4 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6816176583B86A95867384 /* Pods-GtmAndFirebaseTrialForOc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GtmAndFirebaseTrialForOc.release.xcconfig"; path = "Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc.release.xcconfig"; sourceTree = "<group>"; };
 		C446C5552322391600676FFC /* GtmAndFirebaseTrialForOc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GtmAndFirebaseTrialForOc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C446C5582322391600676FFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C446C5592322391600676FFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		C446C5642322391700676FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C446C5662322391700676FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C446C5672322391700676FFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E9C78D23223AED003983F4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DE198EAEF35AAC681417E096 /* Pods_GtmAndFirebaseTrialForOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GtmAndFirebaseTrialForOc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F907BCA822F582824837B3AB /* Pods-GtmAndFirebaseTrialForOc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GtmAndFirebaseTrialForOc.debug.xcconfig"; path = "Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E9C78E23223AED003983F4 /* AdSupport.framework in Frameworks */,
+				8DB24BDA02A5DF383F4C4381 /* Pods_GtmAndFirebaseTrialForOc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B03C229EC8082F3C885453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F907BCA822F582824837B3AB /* Pods-GtmAndFirebaseTrialForOc.debug.xcconfig */,
+				2C6816176583B86A95867384 /* Pods-GtmAndFirebaseTrialForOc.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C446C54C2322391600676FFC = {
 			isa = PBXGroup;
 			children = (
 				C446C5572322391600676FFC /* GtmAndFirebaseTrialForOc */,
 				C446C5562322391600676FFC /* Products */,
+				C4E9C78C23223AED003983F4 /* Frameworks */,
+				51B03C229EC8082F3C885453 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +91,15 @@
 			path = GtmAndFirebaseTrialForOc;
 			sourceTree = "<group>";
 		};
+		C4E9C78C23223AED003983F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9C78D23223AED003983F4 /* AdSupport.framework */,
+				DE198EAEF35AAC681417E096 /* Pods_GtmAndFirebaseTrialForOc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C446C56B2322391700676FFC /* Build configuration list for PBXNativeTarget "GtmAndFirebaseTrialForOc" */;
 			buildPhases = (
+				A9C1A4BA8A6919A8C1629798 /* [CP] Check Pods Manifest.lock */,
 				C446C5512322391600676FFC /* Sources */,
 				C446C5522322391600676FFC /* Frameworks */,
 				C446C5532322391600676FFC /* Resources */,
+				C9EE6F61CEABAE5821AE657F /* [CP] Embed Pods Frameworks */,
+				AD7BAB26D1F8B2338A2268F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +167,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9C1A4BA8A6919A8C1629798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GtmAndFirebaseTrialForOc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7BAB26D1F8B2338A2268F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EE6F61CEABAE5821AE657F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GtmAndFirebaseTrialForOc/Pods-GtmAndFirebaseTrialForOc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C446C5512322391600676FFC /* Sources */ = {
@@ -283,6 +374,7 @@
 		};
 		C446C56C2322391700676FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F907BCA822F582824837B3AB /* Pods-GtmAndFirebaseTrialForOc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +392,7 @@
 		};
 		C446C56D2322391700676FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6816176583B86A95867384 /* Pods-GtmAndFirebaseTrialForOc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
